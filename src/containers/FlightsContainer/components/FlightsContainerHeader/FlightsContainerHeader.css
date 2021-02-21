@@ -1,0 +1,83 @@
+.flights-container-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.flights-container-header__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 123px;
+  height: 38px;
+  margin-right: 20px;
+}
+
+.flights-container-header__title > span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  color: #424242;
+}
+
+.flights-container-header__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20.33px; 
+}
+
+.flights-container-header__flight {
+  display: flex;
+  align-items: center;
+  width: 192px;
+  height: 38px;
+  margin-right: 4px;
+}
+
+.flights-container-header__flight > span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  color: #424242;
+}
+
+.flights-container-header__date {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 193px;
+  height: 28px;
+  margin-right: 15px;
+}
+
+.flights-container-header__date > span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+  color: #1157A7;
+}
+
+.flights-container-header__date-icon {
+  display: flex;
+  align-items: center;
+  height: 28px;
+}
+
+.flights-container-header__date-icon:hover {
+  cursor: pointer;
+  filter: opacity(80%);
+}
+
+.flights-container-header__date-icon:active {
+  cursor: pointer;
+  transform: scale(0.95);
+}
+
+.flights-container-header__date-icon > input {
+  display: none;
+}

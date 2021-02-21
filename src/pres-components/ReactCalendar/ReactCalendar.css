@@ -1,0 +1,47 @@
+
+.react-calendar-component {
+  position: absolute;
+  top: 70px;
+  left: 650px;
+}
+
+.react-calendar {
+  border-radius: 4px;
+  width: 250px;
+  background-color: white;
+  max-width: 100%;
+  font: inherit;
+  line-height: 1.125em;
+  border: 0;
+  overflow: hidden;
+  box-shadow: 0 30px 40px 0 rgb(16 36 94 / 20%);
+}
+
+element.style {
+  flex-basis: 14.2857%;
+  max-width: 14.2857%;
+  overflow: hidden;
+}
+.react-calendar button {
+  margin: 0;
+  border: 0;
+  outline: none;
+  font: inherit;
+  font-size: 0.8em;
+}
+
+.react-calendar button:hover {
+  cursor: pointer;
+}
+
+.react-calendar__tile--active {
+  background: #006edc;
+  color: white;
+}
+
+.react-calendar abbr {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

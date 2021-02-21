@@ -1,0 +1,151 @@
+.flights-container-footer__item-wrapper hr {
+  width: 580px;
+  height: 1px;
+  margin-top: 17px;
+  margin-bottom: 20px;
+  background: rgba(135, 135, 135, 0.2);
+  border-radius: 8px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  border: none;
+}
+
+.flights-container-footer__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flights-container-footer__item__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 64px;
+  background: rgba(0, 119, 255, 0.05);
+  margin-right: 24px;
+}
+
+.flights-container-footer__item__info {
+  width: 301px;
+  margin-right: 69px;
+}
+
+.main-line-info {
+  display: flex;
+  align-items: center;
+  height: 21px;
+}
+
+.main-line-info-first-place > span {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+  color: #424242;
+}
+
+.main-line-info-second-place > span {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+  color: #424242;
+}
+
+.date-line-info {
+  display: flex;
+  height: 21px;
+}
+
+.date-line-info__line {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.date-line-info > span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+  color: #878787;
+}
+
+.aeroflot-line-info {
+  height: 18px;
+}
+
+.aeroflot-line-info > span{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+  color: #878787;
+}
+
+.flights-container-footer__item__secondary-info-wrapper {
+  display: flex;
+  margin-right: 11px;
+}
+
+.flights-container-footer__item__secondary-info {
+  width: 110px;
+  height: 61px;
+}
+
+.like-item {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+.like-item > svg {
+  margin-right: 8px;
+}
+
+.like-item > svg:hover {
+  cursor: pointer;
+}
+
+.like-item > svg:active {
+  cursor: pointer;
+  transform: scale(0.95);
+}
+
+.price-info {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.price-info > span:nth-child(1) {
+  display: flex;
+  align-self: flex-end;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 22px;
+  height: 18px;
+  letter-spacing: -0.408px;
+  margin-right: 8px;
+  color: #878787;
+}
+
+.price-info > span:nth-child(2) {
+  display: flex;
+  align-self: flex-end;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 22px;
+  height: 21px;
+  letter-spacing: -0.408px;
+  color: #000000;
+}

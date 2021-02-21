@@ -1,0 +1,41 @@
+.input-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.input > input {
+  padding-left: 10px;
+  outline-style: none;
+  width: 345px;
+  height: 34px;
+  border: 1px solid #C9CACC;  
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.input-title {
+  display: flex;
+  align-items: center;
+}
+
+.input__title > span {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #424242;
+}
+
+.input__error-message {
+  position: absolute;
+  display: flex;
+
+}
+
+.input__error-message > span {
+  padding-top: 3px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px; 
+  color: #EB1717;
+}

@@ -1,0 +1,46 @@
+.button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 33px;
+  padding-right: 33px;
+  
+}
+
+.button-wrapper > button {
+  outline-style: none;
+  width: 116px;
+  height: 34px;
+  background: linear-gradient(104.34deg, #3C4CAD -15.34%, #00C3FF 145.95%);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+}
+
+.button-wrapper > button:hover {
+  background: linear-gradient(104.34deg, #3C4CAD -15.34%, #00C3FF 145.95%);
+  box-shadow: 0px 0px 4px #99A0A3;
+  cursor: pointer;
+}
+
+.button-wrapper > button:active {
+  background: linear-gradient(104.34deg, #5362BE -15.34%, #4AD5FF 145.95%);
+  border: 1.5px solid rgba(29, 138, 216, 0.3);
+  cursor: pointer;
+  transform: scale(0.95);
+}
+
+
+.button-wrapper > button > span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.button-preloader {
+  width: 116px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

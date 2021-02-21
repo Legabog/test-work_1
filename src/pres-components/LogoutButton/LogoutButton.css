@@ -1,0 +1,40 @@
+.logout-button-wrapper {
+  position: absolute;
+  top: 26px;
+  right: 31px;
+}
+
+.logout-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logout-button:hover {
+  cursor: pointer;
+  filter: opacity(70%);
+}
+
+.logout-button:active {
+  cursor: pointer;
+  transform: scale(.95);
+}
+
+.logout-button__text {
+  width: 80px;
+  height: 28px;
+  margin-right: 12px;
+  align-items: center;
+  justify-content: right;
+  text-align: right;
+
+}
+
+.logout-button__text > span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+  color: #1157A7;
+}

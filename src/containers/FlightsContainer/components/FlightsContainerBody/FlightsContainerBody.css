@@ -1,0 +1,38 @@
+.flights-container-body__carousel {
+}
+
+.flights-container-body__carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flights-container-body__carousel-item:hover {
+  cursor: pointer;
+}
+
+.flights-container-body__carousel-item:focus {
+  cursor: pointer;
+  outline: none;
+}
+
+.flights-container-body__carousel-item > img {
+  width: 164px;
+  height: 149px;
+  object-fit: cover;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.flights-container-body__carousel-item > img:focus {
+  outline: none;
+}
+
+
+
+.sc-dlfnbm.cukhLH.rec.rec-slider-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin: 0;
+} 
