@@ -35,7 +35,6 @@ const mapStateToProps = (state) => {
     token: state.authReducer.token,
     authFetching: state.authReducer.authFetching,
     authError: state.authReducer.authError,
-    authApp: state.appReducer.authApp,
   };
 };
 
